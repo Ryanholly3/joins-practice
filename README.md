@@ -20,9 +20,11 @@
 
 INNER JOIN going from 'owner' to 'pet'
 
-  Select * FROM owner INNER JOIN pet ON pet.owner_id = owner.id
+  SELECT * FROM owner INNER JOIN pet ON pet.owner_id = owner.id;
 
-  
+LEFT JOIN
+
+  SELECT * FROM owner LEFT JOIN pet ON pet.owner_id = owner.id;
 
 ## Resources
 
